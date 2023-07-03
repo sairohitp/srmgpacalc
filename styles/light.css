@@ -8,7 +8,7 @@ body {
 }
 
 img {
-    height: 80px;
+    height: 70px;
     margin-top: 10px;
 }
 
@@ -25,7 +25,7 @@ h6 {
 }
 
 h1 {
-    font-size: 18px;
+    font-size: 14px;
 }
 
 h3,
@@ -34,16 +34,16 @@ h5 {
 }
 
 h3 {
-    font-size: 28px;
+    font-size: 22px;
 }
 
 p,
 h4 {
-    font-size: 12px;
+    font-size: 11px;
     margin: 0px;
 }
 
-button {
+/* button {
     font-size: 10px;
     transition: all 0.10s ease-in-out;
     padding: 7px 0px;
@@ -59,18 +59,11 @@ button:hover {
     cursor: pointer;
     background-color: #cfd8dc;
     transition: all 0.10s ease-in;
-}
+} */
 
 section {
-    width: 450px;
-    margin: 30px auto 0px auto;
-}
-
-#tableheader {
-    background-color: aqua;
-    margin-bottom: 15px;
-    display: grid;
-    grid-template-columns: repeat(3, auto);
+    width: 420px;
+    margin: 20px auto 0px auto;
 }
 
 #title {
@@ -111,7 +104,7 @@ table {
 th,
 td {
     padding: 10px;
-    font-size: 12px;
+    font-size: 11px;
     text-align: center;
     vertical-align: middle;
 }
@@ -186,7 +179,7 @@ select {
 }
 
 select {
-    font-size: 12px;
+    font-size: 11px;
 }
 
 select:focus {
