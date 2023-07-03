@@ -1,9 +1,8 @@
 $(document).ready(function () {
-  var gradesList;
+    var gradesList;
     function calcBrain(event) {
         var creditsList = $(".credits");
         gradesList = $(".grade");
-        
 
         var credit = 0;
         var totCredits = 0;
