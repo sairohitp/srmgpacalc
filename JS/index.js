@@ -111,11 +111,11 @@ $(document).ready(function () {
         if (themetoggler.hasClass("fa-moon")) {
             themetoggler.removeClass("fa-moon");
             themetoggler.addClass("fa-sun");
-            $("link").attr("href", "./dark.css");
+            $("link").attr("href", "./styles/dark.css");
         } else if (themetoggler.hasClass("fa-sun")) {
             themetoggler.removeClass("fa-sun");
             themetoggler.addClass("fa-moon");
-            $("link").attr("href", "./light.css");
+            $("link").attr("href", "./styles/light.css");
         }
     });
 });
