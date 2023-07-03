@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.1.js"
+        integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    
+        <script src="https://kit.fontawesome.com/45375e8f17.js" crossorigin="anonymous"></script>
+    
+        <!-- <script src="https://unpkg.com/feather-icons"></script> -->
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.29.0/feather.min.js"
+        integrity="sha512-24XP4a9KVoIinPFUbcnjIjAjtS59PUoxQj3GNVpWc86bCqPuy3YxAcxJrxFCxXe4GHtAumCbO2Ze2bddtuxaRw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.29.0/feather.js"
+        integrity="sha512-0hV9FhQc44B5NIfBhQFNBTXrrasLwG6SVxbRiaO7g6962sZV/As4btFdLxXn+brwH7feEg3+AoyQxZQaArEjVw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./light.css">
+    <title>SRM GPA CALC</title>
+</head>
+
+<body>
+    
+    <nav>
+        <div>
+            <div>
+                <img src="./assets/srmlogo.webp">
+            </div>
+            <h1>
+                SRM GPA CALCULATOR
+            </h1>
+        </div>
+
+        <!-- <div>
+            <button>Semester GPA</button>
+            <button>Cumulative GPA</button>
+        </div> -->
+
+    </nav>
+
+    <main>
+        <section>
+
+            <div class="classicflex">
+
+
+                <div>
+                    <h4 id="message">Scorecard this semester</h4>
+                </div>
+                <div class="classicflex">
+                    <div>
+                        <div id="add"><i data-feather="plus-circle"></i></div>
+                    </div>
+
+                    <div>
+                        <div id="reset"><i data-feather="x-circle"></i></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <table id="maintable">
+                <tr class="field">
+                    <th>
+                        Edit
+                    </th>
+                    
+                    <th>
+                        Subject #
+                    </th>
+                    <th>
+                        Credits
+                    </th>
+                    <th>
+                        Grade
+                    </th>
+                </tr>
+
+
+                <tr class="field">
+                    <td>
+                        <i class="del" data-feather="x-circle"></i>
+                    </td>
+                    
+                    <td>    
+                    </td>
+                    <td>
+                        <label for="grade"></label>
+                        <input type="number" class="credits" min=1>
+                    </td>
+                    <td>
+                        <select name="grade" class="grade">
+                            <option selected="selected">O</option>
+                            <option>A+</option>
+                            <option>A</option>
+                            <option>B+</option>
+                            <option>B</option>
+                            <option>C</option>
+                            <option>P</option>
+                            <option>F</option>
+                            <option>Ab</option>
+                            <option>I</option>
+                        </select>
+                    </td>
+                </tr>
+
+
+                <tr class="field">
+                    <td>
+                        <i class="del" data-feather="x-circle"></i>
+                    </td>
+                    
+                    <td>    
+                    </td>
+                    <td>
+                        <label for="grade"></label>
+                        <input type="number" class="credits" min=1>
+                    </td>
+                    <td>
+                        <select name="grade" class="grade">
+                            <option selected="selected">O</option>
+                            <option>A+</option>
+                            <option>A</option>
+                            <option>B+</option>
+                            <option>B</option>
+                            <option>C</option>
+                            <option>P</option>
+                            <option>F</option>
+                            <option>Ab</option>
+                            <option>I</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr class="field">
+                    <td>
+                        <i class="del" data-feather="x-circle"></i>
+                    </td>
+                    
+                    <td>    
+                    </td>
+                    <td>
+                        <label for="grade"></label>
+                        <input type="number" class="credits" min=1>
+                    </td>
+                    <td>
+                        <select name="grade" class="grade">
+                            <option selected="selected">O</option>
+                            <option>A+</option>
+                            <option>A</option>
+                            <option>B+</option>
+                            <option>B</option>
+                            <option>C</option>
+                            <option>P</option>
+                            <option>F</option>
+                            <option>Ab</option>
+                            <option>I</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr class="field">
+                    <td>
+                        <i class="del" data-feather="x-circle"></i>
+                    </td>
+                    
+                    <td>    
+                    </td>
+                    <td>
+                        <label for="grade"></label>
+                        <input type="number" class="credits" min=1>
+                    </td>
+                    <td>
+                        <select name="grade" class="grade">
+                            <option selected="selected">O</option>
+                            <option>A+</option>
+                            <option>A</option>
+                            <option>B+</option>
+                            <option>B</option>
+                            <option>C</option>
+                            <option>P</option>
+                            <option>F</option>
+                            <option>Ab</option>
+                            <option>I</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr class="field">
+                    <td>
+                        <i class="del" data-feather="x-circle"></i>
+                    </td>
+                    
+                    <td>    
+                    </td>
+                    <td>
+                        <label for="grade"></label>
+                        <input type="number" class="credits" min=1>
+                    </td>
+                    <td>
+                        <select name="grade" class="grade">
+                            <option selected="selected">O</option>
+                            <option>A+</option>
+                            <option>A</option>
+                            <option>B+</option>
+                            <option>B</option>
+                            <option>C</option>
+                            <option>P</option>
+                            <option>F</option>
+                            <option>Ab</option>
+                            <option>I</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr class="field">
+                    <td>
+                        <i class="del" data-feather="x-circle"></i>
+                    </td>
+                    
+                    <td>    
+                    </td>
+                    <td>
+                        <label for="grade"></label>
+                        <input type="number" class="credits" min=1>
+                    </td>
+                    <td>
+                        <select name="grade" class="grade">
+                            <option selected="selected">O</option>
+                            <option>A+</option>
+                            <option>A</option>
+                            <option>B+</option>
+                            <option>B</option>
+                            <option>C</option>
+                            <option>P</option>
+                            <option>F</option>
+                            <option>Ab</option>
+                            <option>I</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr class="field">
+                    <td>
+                        <i class="del" data-feather="x-circle"></i>
+                    </td>
+                    
+                    <td>    
+                    </td>
+                    <td>
+                        <label for="grade"></label>
+                        <input type="number" class="credits" min=1>
+                    </td>
+                    <td>
+                        <select name="grade" class="grade">
+                            <option selected="selected">O</option>
+                            <option>A+</option>
+                            <option>A</option>
+                            <option>B+</option>
+                            <option>B</option>
+                            <option>C</option>
+                            <option>P</option>
+                            <option>F</option>
+                            <option>Ab</option>
+                            <option>I</option>
+                        </select>
+                    </td>
+                </tr>
+
+
+            </table>
+
+            <div id="resultpane">
+                <h4>Your GPA for the semester is:</h4>
+                <h3 id="finaljudgement">
+                    0.00
+                </h3>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="flex">
+            <a href="https://www.linkedin.com/in/sairohitp/" target="_blank">
+                <div class="footer-kids fa fa-user">
+                </div>
+            </a>
+            <div class="footer-kids flexeye">
+                <div class="fa fa-eye"></div>
+                <div id="visits"></div>
+            </div>
+            <div class="footer-kids fa fa-moon">
+            </div>
+        </div>
+    </footer>
+    <script>
+        feather.replace()
+    </script>
+     <script src="./index.js"></script>
+</body>
+
+</html>
